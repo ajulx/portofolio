@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fajrul Falah - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">FF</div>
+            <div class="nav-menu">
+                <a href="#profile" class="nav-link">Profil</a>
+                <a href="#tentang" class="nav-link">Tentang Saya</a>
+                <a href="#pengalaman" class="nav-link">Pengalaman</a>
+                <a href="#keahlian" class="nav-link">Keahlian</a>
+                <a href="#projek" class="nav-link">Projek</a>
+                <a href="#kontak" class="nav-link">Kotak Pesan</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section id="profile" class="hero-section">
+        <canvas id="particles-canvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-text">
+                    <h4 class="hiro-name">Halo, saya</h4>
+                    <h1 class="name hero-name">Fajrul Falah</h1>
+                    <p class="description">Saya Adalah Seorang Siswa TKJ</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/fajrul-falah-1746a5390/" class="social-icon linkedin-icon" aria-label="LinkedIn" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#0A66C2">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/lemonkecuttttt/" class="social-icon instagram-icon" aria-label="Instagram" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24">
+                                <defs>
+                                    <linearGradient id="instagram-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#833AB4;stop-opacity:1" />
+                                        <stop offset="50%" style="stop-color:#E1306C;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#F77737;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <path fill="url(#instagram-gradient)" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.405a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/ajulx" class="social-icon github-icon" aria-label="GitHub" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000000">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon whatsapp-icon" id="whatsapp-icon" aria-label="WhatsApp">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#25D366">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.149-.67.149-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.123-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                            </svg>
+                        </a>
+                        <span class="whatsapp-number">0813-7464-0683</span>
+                        <div class="copy-notification" id="copy-notification">Nomor berhasil disalin!</div>
+                    </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/foto.jpg" class="profile-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Saya Section -->
+    <section id="tentang" class="section">
+        <div class="container">
+            <div class="tentang-content">
+                <div class="tentang-image">
+                    <img src="images-hitam/foto.jpg" class="about-photo">
+                </div>
+                <div class="tentang-text">
+                    <h2 class="tentang-saya">Tentang Saya</h2>
+                    <p>Saya adalah seorang siswa TKJ yang memiliki beberapa keahlian seperti merencanakan infrasturktur jaringan, membangun jaringan, serta mengamankan jaringan.</p>
+                    <p>Saya juga dapat merakit jaringan physical selain itu saya juga dapat melakukan instalasi serta konfigurasi server berbasis linux.</p>
+                    <p>Saya dapat melakukan konfigurasi beberapa menggunakan automation ansible.</p>
+                    <p>Saya bisa membuat sebuah website dengan menggunakan ai agent.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pengalaman Section -->
+    <section id="pengalaman" class="section">
+        <div class="container">
+            <h2 class="section-title">Pengalaman</h2>
+            <div class="pengalaman-list">
+                <div class="pengalaman-item">
+                    <h3>Spesialisasi Konfigurasi Server & Jaringan Skala Besar</h3>
+                    <h4>Kelas 12 SMK</h4>
+                    <p class="tahun">2025 - Sekarang</p>
+                    <p>Menguasai konfigurasi dan administrasi server berbasis Linux Debian seperti Web Server, Mail Server, DNS Server, DHCP Server, dll.</p>
+                    <p>Merancang dan mengimplementasikan jaringan komputer skala LAN dan MAN dalam lingkungan simulasi dan praktik laboratorium.</p>
+                    <p>Menganalisis kebutuhan jaringan, memilih perangkat jaringan dan menerapkan protokol routing dinamis sesuai kebutuhan.</p>
+                    <p>Melakukan troubleshooting jaringan tingkat lanjut dan menerapkan mekanisme keamanan dasar dengan menggunakan firewall dan access list.</p>
+                </div>
+                <div class="pengalaman-item">
+                    <h3>Implementasi Praktik Dasar Jaringan & Sistem</h3>
+                    <h4>Kelas 11 SMK</h4>
+                    <p class="tahun">2024</p>
+                    <p>Melakukan instalasi sistem operasi dan hardware pada komputer klien/server serta melakukan maintenance rutin.</p>
+                    <p>Menerapkan praktik langsung dari teori dasar jaringan yang dipelajari, termasuk konfigurasi dasar Router dan Switch (Cisco/MikroTik).</p>
+                    <p>Mengimplementasikan pembagian jaringan menggunakan Subnetting (VLSM) dan konfigurasi VLAN untuk manajemen traffic.</p>
+                </div>
+                <div class="pengalaman-item">
+                    <h3>Fase Pembentukan Dasar Jaringan & Komputer</h3>
+                    <h4>Kelas 10 SMK</h4>
+                    <p class="tahun">2023</p>
+                    <p>Memahami konsep dasar jaringan komputer (OSI Layer, TCP/IP, topologi jaringan).</p>
+                    <p>Menguasai prinsip-prinsip perakitan dan perawatan komputer serta instalasi perangkat lunak dasar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keahlian Section -->
+    <section id="keahlian" class="section">
+        <div class="container">
+            <h2 class="section-title">Keahlian</h2>
+            <div class="keahlian-container">
+                <div class="keahlian-kiri">
+                    <div class="keahlian-box" data-delay="0">
+                        <h3>HTML & CSS</h3>
+                        <p>Beginner</p>
+                    </div>
+                    <div class="keahlian-box" data-delay="200">
+                        <h3>Merakit Hardware</h3>
+                        <p>Skilled</p>
+                    </div>
+                    <div class="keahlian-box" data-delay="400">
+                        <h3>Konfigurasi layanan</h3>
+                        <p>Advanced</p>
+                    </div>
+                    <div class="keahlian-box" data-delay="600">
+                        <h3>Perencanaan infrastruktur jaringan</h3>
+                        <p>Advanced</p>
+                    </div>
+                    <div class="keahlian-box" data-delay="800">
+                        <h3>otomatisasi dengan ansible</h3>
+                        <p>Skilled</p>
+                    </div>
+                </div>
+                <div class="keahlian-kanan">
+                    <div class="keahlian-box" data-delay="100">
+                        <h3>Database Mysql</h3>
+                        <p>Skilled</p>
+                    </div>
+                    <div class="keahlian-box" data-delay="300">
+                        <h3>Iot</h3>
+                        <p>Beginner</p>
+                    </div>
+                    <div class="keahlian-box" data-delay="500">
+                        <h3>Git & GitHub</h3>
+                        <p>Beginner</p>
+                    </div>
+                    <div class="keahlian-box" data-delay="700">
+                        <h3>Docker</h3>
+                        <p>Beginner</p>
+                    </div>
+                    <div class="keahlian-box" data-delay="900">
+                        <h3>Design website</h3>
+                        <p>Beginner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projek Section -->
+    <section id="projek" class="section">
+        <div class="container">
+            <h2 class="section-title">Projek</h2>
+            <div class="projek-grid">
+                <div class="projek-card">
+                    <img src="https://picsum.photos/seed/project1/300/200.jpg" alt="Project 1" loading="lazy">
+                    <h3>Pintu otomatis</h3>
+                    <p>Membuat pintu otomatis menggunakan arduino uno.</p>
+                </div>
+                <div class="projek-card">
+                    <img src="https://picsum.photos/seed/project2/300/200.jpg" alt="Project 2" loading="lazy">
+                    <h3>Membangun jaringan LAN<h3>
+                    <p>Mulai dari perakitan perangkat keras jaringan hingga pengkonfigurasian secara lengkap serta maintenance secara berkala.</p>
+                </div>
+                <div class="projek-card">
+                    <img src="https://picsum.photos/seed/project3/300/200.jpg" alt="Project 3" loading="lazy">
+                    <h3>Membuat prototype gerbang otomatis</h3>
+                    <p>Menggunakan perangkat yang bernama arduino serta menyiapkan perangkat - perangkat tambahan yang di butuhkan dan melakukan konfigurasi pada perangkat arduino.</p>
+                </div>
+                <div class="projek-card">
+                    <img src="https://picsum.photos/seed/project4/300/200.jpg" alt="Project 4" loading="lazy">
+                    <h3>Membuat website portofolio</h3>
+                    <p>Melakukan pembuatan website menggunakan html, css, dan js. Pembuatan website menggunakan ai agent sebagai otomatisasi dalam pembuatan script.</p>
+                </div>
+                <div class="projek-card">
+                    <img src="https://picsum.photos/seed/project5/300/200.jpg" alt="Project 5" loading="lazy">
+                    <h3>Membuat website penjualan</h3>
+                    <p>Sedang di kerjakan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="section">
+        <div class="container">
+            <h2 class="section-title">Kotak Pesan</h2>
+            <form class="kontak-form">
+                <div class="form-group">
+                    <input type="text" id="nama" name="nama" required>
+                    <label for="nama">Nama</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subjek" name="subjek" required>
+                    <label for="subjek">Subjek</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="pesan" name="pesan" rows="5" required></textarea>
+                    <label for="pesan">Pesan</label>
+                </div>
+                <button type="submit" class="submit-btn">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
